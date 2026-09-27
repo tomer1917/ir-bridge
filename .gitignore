@@ -1,0 +1,16 @@
+# Arduino / PlatformIO build output
+build/
+.pio/
+*.bin
+*.elf
+*.hex
+
+# Editor / OS
+.vscode/
+.theia/
+.DS_Store
+Thumbs.db
+
+# Never commit a real token or captured credentials
+secrets.h
+*.local.*
